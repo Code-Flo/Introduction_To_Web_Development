@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<people>
+  <Person>
+    <Name>
+      <firstName>Jay</firstName>
+      <lastName>Jordan</lastName>
+    </Name>
+    <age>
+      33
+    </age>
+    <race>
+    </race>
+  </Person>
+  <Person>
+    <Name>
+      <firstName>Mitch</firstName>
+      <lastName>Jordan</lastName>
+    </Name>
+    <age>
+      33
+    </age>
+    <race>
+      Unknown
+    </race>
+  </Person>
+  <Person>
+    <Name>
+      <firstName>Jay</firstName>
+      <lastName>Jordan</lastName>
+    </Name>
+    <age>
+      33
+    </age>
+    <race>
+    </race>
+  </Person>
+</people>

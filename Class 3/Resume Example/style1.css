@@ -1,87 +1,100 @@
-﻿.grey_text
-{
-	color: #373737;
+﻿.grey_text {
+    color: #373737;
 }
 
 .blue_text {
-	color: #065EBF;
-	text-decoration:underline;
-	margin-bottom: 8px;
-}
-p
-{
-	font-size: large;
-	padding: 0;
-	margin: 5px 0 5px 0;
-	color: #373737;
+    color: #065EBF;
+    text-decoration: underline;
+    margin-bottom: 8px;
 }
 
-h1, h2, h3, h4, h5, h6
-{
-	margin: 2px;
+p {
+    font-size: large;
+    padding: 0;
+    margin: 5px 0 5px 0;
+    color: #373737;
 }
 
-article h4
-{
-	font-size: medium;
+h1, h2, h3, h4, h5, h6 {
+    margin: 2px;
 }
 
-h4
-{
-	text-decoration: underline;
-	font-size: x-large;
+article h4 {
+    font-size: medium;
 }
 
-h5
-{
-	font-size: larger;
+h4 {
+    text-decoration: underline;
+    font-size: x-large;
 }
 
-#bodyContainer
-{
-	max-width: 700px;
-	margin: 0 auto;
-	background-color: white;
-	opacity: .9;
-	padding: 30px;
+h5 {
+    font-size: larger;
 }
 
-.date
-{
-	color: black;
+#bodyContainer {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: white;
+    opacity: .9;
+    padding: 30px;
 }
 
-em
-{
-	color: black;
+.date {
+    color: black;
 }
 
-h2
-{
-	margin: 8px 0 10px 0;
+em {
+    color: black;
 }
 
-nav ul
-{
-	list-style-type: none;
+h2 {
+    margin: 8px 0 10px 0;
 }
 
-	nav ul li
-	{
-		display: inline-block;
-		padding-left: 20px;
-	}
-
-html
-{
-	background: url("Optimized-resumeBackground.jpg") no-repeat center center fixed;
-	background-size: cover;
+nav ul {
+    list-style-type: none;
 }
 
-a{
-	color:#065EBF;
+    nav ul li {
+        display: inline-block;
+        padding-left: 20px;
+    }
+
+html {
+    background: url("Optimized-resumeBackground.jpg") no-repeat center center fixed;
+    background-size: cover;
 }
 
-a:visited {
-	color: purple;
+a {
+    color: #065EBF;
+}
+
+    a:visited {
+        color: purple;
+    }
+
+    a:hover {
+        background-color: #065EBF;
+        color: white;
+    }
+
+.wrapper {
+    width: 630px;
+    margin: 0 auto;    
+    padding: 2px;
+}
+
+.left {
+    width: 200px;
+    float: left;    
+    padding: 2px 20px 2px 2px;
+    text-align: right;
+}
+
+.right {
+    width: 400px;
+    float: left;
+    
+    padding: 2px;
 }

@@ -3,7 +3,17 @@
 <head>
     <title>Jay's Resume</title>
     <link rel="stylesheet" type="text/css" href="style1.css" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#summarySection").click(function () {
+                $("#summarySection").slideUp();
+            });
+           
+        });
+        
+
+    </script>
 </head>
 <body>
     <div id="bodyContainer">
@@ -108,12 +118,12 @@
                     <li>Software Development</li>
                     <li>Golf</li>
                 </ul>
-                <!--<ol>
-                <li>Web Design</li>
-                <li>Programming</li>
-                <li>Software Development</li>
-                <li>Golf</li>
-                </ol> -->
+                <!-- 					<ol>
+                                        <li>Web Design</li>
+                                        <li>Programming</li>
+                                        <li>Software Development</li>
+                                        <li>Golf</li>
+                                    </ol> -->
             </article>
         </section>
         <hr />
@@ -142,55 +152,34 @@
         <hr />
         <div>
             <form action="MAILTO:jamesjordan@innovationnexus.biz?subject=Resume Inquiry" method="get" enctype="text/plain">
-                <div class="wrapper">
-                    <div class="left">Reason for contact:</div>
-                    <div class="right">
-                        <select id="ddlContactReason">
-                            <option value="Job Offer">Job Offer</option>
-                            <option value="Resume Inquiry">Resume Inquiry</option>
-                            <option value="General Inquiry">General Inquiry</option>
-                        </select>
-                    </div>
-                    <br />
-                    <div class="left">Name: </div>
-                    <div class="right"><input type="text" name="name" placeholder="Name goes here" /></div>
-                    <br />
-                    <div class="left">Email: </div>
-                    <div class="right"><input type="email" name="email" placeholder="Email goes here" /></div>
-                    <br />
-
-                    <div class="left">
-                        Sex:
-                    </div>
-                    <div class="right">
-                        <input type="radio" name="sex" value="male">Male
-                        <input type="radio" name="sex" value="female" checked="checked">Female
-                    </div>
-                    <div class="left">
-                        Age:
-                    </div>
-                    <div class="right">
-                        <input type="range" min="4" max="110" />
-                    </div>
-                    <div class="left">
-                        Telephone:
-                    </div>
-                    <div class="right">
-                        <input type="tel" />
-                    </div>
-                    <div class="left">
-                        Comments:
-                    </div>
-                    <div class="right">
-                        <textarea cols="30" rows="20" name="comments" placeholder="Comments goes here"></textarea>
-                    </div>
-                    <div style="clear: both;"></div>
-                    <input type="submit" name="submit" value="Send" />
-                    <input type="reset" name="reset" value="Clear Form" />
-                </div>
+                <p>
+                    Reason for contact:
+                    <select>
+                        <option value="Job Offer">Job Offer</option>
+                        <option value="Resume Inquiry">Resume Inquiry</option>
+                        <option value="General Inquiry">General Inquiry</option>
+                    </select>
+                </p>
+                <p>Name: <input type="text" name="name" placeholder="Name goes here" value="test" /></p>
+                <p>Email: <input type="text" name="email" placeholder="Email goes here" /></p>
                 <!--<p>color <input type="color" /></p>-->
+                <p>
+                    Sex:
+                    <input type="radio" name="sex" value="male">Male
+                    <input type="radio" name="sex" value="female" checked="checked">Female
+                </p>
                 <!--<p><input type="file" /></p>-->
                 <!--<p>Date: <input type="date" name="date" /></p>-->
+                <p>Age: <input type="range" min="4" max="110" /></p>
+                <p>Telephone: <input type="tel" /></p>
+                <p>
+                    Comments:<br />
+                    <textarea cols="30" rows="20" name="comments" placeholder="Comments goes here"></textarea>
+                </p>
+                <p>
+                    <input type="submit" name="submit" value="Send" />
+                    <input type="reset" name="reset" value="Clear Form" />
+                </p>
             </form>
         </div>
     </div>
